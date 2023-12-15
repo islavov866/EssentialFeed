@@ -4,7 +4,7 @@
       "id" : "3DA35C04-EB81-470A-85D8-65B68EF5F4AB",
       "name" : "Test Scheme Action",
       "options" : {
-
+        "threadSanitizerEnabled" : false
       }
     }
   ],
@@ -17,7 +17,8 @@
           "name" : "EssentialFeed"
         }
       ]
-    }
+    },
+    "testExecutionOrdering" : "random"
   },
   "testTargets" : [
     {
